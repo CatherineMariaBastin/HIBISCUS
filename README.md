@@ -292,8 +292,12 @@ Request Body
 }
 GET /api/auth/me
 
+
+
 TEAM MEMBERS
+
 1.CATHERINE MARIA BASTIN
+
 2.NEEHARA ANNA BINCE
 
 
