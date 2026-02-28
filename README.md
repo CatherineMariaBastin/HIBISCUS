@@ -1,174 +1,112 @@
 🌺 Hibiscus
 AI-Powered Universal Study Workspace
 
-Hibiscus is a full-stack AI learning platform that transforms passive studying into active understanding.
+Hibiscus is a full-stack AI learning platform designed to transform passive studying into active understanding.
 
-Upload PDFs, paste text, or submit web URLs. Highlight content directly inside the platform and instantly generate AI-powered summaries, flashcards, and exam-ready notes — all in one organized workspace.
+Students can upload PDFs, paste text, or submit web URLs, highlight content directly inside the platform, and instantly convert those highlights into AI-generated summaries, flashcards, and exam-ready notes — all within a single, organized workspace.
 
-🚀 Problem
+Unlike traditional note-taking or summarization tools, Hibiscus actively evaluates how well a student understands the material and adapts the learning process accordingly.
 
-Students study from multiple sources — PDFs, websites, notes, and articles.
 
-Their highlights are scattered. Revision becomes inefficient. Understanding remains shallow.
+🏗 Tech Stack
+🎨 Frontend
 
-Most tools summarize content.
-Few tools evaluate how well you actually understand it.
+React.js – Component-based UI development
 
-💡 Solution
+Tailwind CSS – Utility-first styling for fast and responsive design
 
-Hibiscus is not just a summarizer.
-It is a cognitive learning assistant.
+PDF.js – In-browser PDF rendering and text highlighting
 
-It combines:
+Vite – Fast development server and build tool
 
-Smart highlighting
+⚙️ Backend
 
-AI-generated study material
+Node.js – Server-side JavaScript runtime
 
-Confusion detection
+Express.js – REST API framework
+
+SQLite (better-sqlite3) – Lightweight database for fast local and server-side storage
+(used for rapid development and deployment on Render)
+
+🤖 AI Integration
+
+Google AI Studio (Gemini API) –
+
+Flashcard generation
+
+Summarization
 
 Active recall evaluation
 
-Critical thinking challenges
+Debate and critical thinking prompts
 
-Focus monitoring
+Simplification of complex content
 
-All inside one unified dashboard.
+🔐 Authentication & Security
 
-✨ Core Features
-📂 Universal Study Workspace
+JWT (JSON Web Tokens) – Secure session handling
 
-Upload PDFs
+bcrypt – Password hashing and encryption
 
-Paste raw text
+Environment Variables – Secure API key management
 
-Submit web URLs (auto content extraction)
+☁️ Deployment
 
-Highlight directly inside the app
+Render – Hosting for backend and full-stack application
 
-Tag and organize content
+GitHub – Version control and CI-based deployments
 
-🤖 AI Study Generator
+🛠 Developer Tools
 
-From highlights, generate:
+VS Code – Development environment
 
-Bullet-point summaries
+npm – Package management
 
-Flashcards (Q&A format)
+Git – Source control
 
-2-mark & 5-mark exam answers
+Features
 
-Quick revision sheets
+Universal Study Workspace
+Upload PDFs, paste text, or submit web URLs. Study everything in one place with an integrated reader and highlighter.
 
-Key concept lists
+AI-Powered Study Material Generation
+Instantly convert highlights into summaries, flashcards, exam-ready answers, and quick revision sheets using AI.
 
-🧠 Confusion Detector
+Active Recall Evaluation (Explain-It-Back)
+Explain concepts in your own words and receive an AI-generated understanding score, missing key points, and improvement feedback.
 
-Tracks:
+Confusion Detection & Simplification
+Detects confusion based on reading behavior and offers simplified explanations when users struggle with a section.
 
-Time spent per section
+AI Debate Mode
+Builds critical thinking by generating counter-arguments and challenges to test deep conceptual understanding.
 
-Repeated highlighting
+Focus & Procrastination Monitoring
+Tracks inactivity and tab switching, triggers focus reminders, and maintains study streaks.
 
-Hesitation patterns
+Installation commands
 
-If confusion is detected:
+npm install
+This installs all required backend and frontend packages.
+Configure Environment Variables
 
-“You might not fully understand this section. Want a simpler explanation?”
+ Build the Frontend
+npm run build
+This generates the production-ready frontend in the dist/ folder.
 
-🗣 Explain-It-Back (Active Recall Engine)
+Start the Application
+npm start
+The app will be available at:
+http://localhost:3000
+Development Mode
+npm run dev
+Runs the app with hot-reloading for development.
 
-Users explain concepts in their own words
 
-AI evaluates clarity
+Run commands
 
-Detects missing key ideas
+Run in Development Mode
+npm run dev                                                                                                                                                       Run in Production Mode (Local)
+npm run build
+npm start
 
-Scores understanding (0–100)
-
-Suggests improvements
-
-Encourages deep learning instead of memorization.
-
-🎭 AI Debate Mode
-
-After studying:
-
-Generates counter-arguments
-
-Challenges assumptions
-
-Prompts analytical thinking
-
-Evaluates response depth
-
-Ideal for theory-heavy subjects.
-
-🎯 Focus & Procrastination Monitor
-
-Tracks inactivity
-
-Detects tab switching
-
-Suggests 5-minute micro challenges
-
-Maintains streak system
-
-🏗 Tech Stack
-
-Frontend:
-
-React.js
-
-Tailwind CSS
-
-PDF.js
-
-Backend:
-
-Node.js
-
-Express.js
-
-MongoDB
-
-AI Integration:
-
-OpenAI API (summaries, evaluation, debate generation)
-
-Authentication:
-
-JWT-based authentication
-🔐 Privacy
-
-User content is processed securely.
-
-Data is not sold or shared.
-
-Users can delete their data anytime.
-
-Passwords are encrypted.
-
-Only necessary content is sent to AI APIs.
-
-See PRIVACY.md for full details.
-
-🧪 Future Improvements
-
-Spaced repetition engine
-
-AI-based memory decay prediction
-
-Mind map auto-generation
-
-Collaborative study mode
-
-Mobile app version
-
-🎯 Vision
-
-Hibiscus aims to move students from:
-
-Passive reading → Active mastery
-Memorization → Deep understanding
-Scattered notes → Structured revision
