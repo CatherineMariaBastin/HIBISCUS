@@ -293,6 +293,18 @@ Request Body
 GET /api/auth/me
 
 
+ARCHITECTURE DIAGRAM
+
+<img width="306" height="475" alt="Screenshot 2026-02-28 082741" src="https://github.com/user-attachments/assets/7e8518d5-a1db-4328-b66b-7697282d784e" />
+
+  |  • Lessons API            
+  |  • Documents API          
+  |  • Highlights API
+
+
+<img width="376" height="480" alt="image" src="https://github.com/user-attachments/assets/461adaa7-3564-4810-859f-a285064903f2" />
+
+
 
 TEAM MEMBERS
 
